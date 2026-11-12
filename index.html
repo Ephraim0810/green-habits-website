@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Habits, Greener Future</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Sustainability</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="info.html">Explore Habits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Pledge</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <header class="bg-success text-white text-center py-5">
+        <h1 id="head">Every Action Counts.</h1>
+        <div class="container">
+            <p class="lead">Small habits, big impact. Discover how your daily choices shape the planet’s future.</p>
+            <a href="info.html" class="btn btn-light btn-lg mt-3">Explore Habits</a>
+        </div>
+    </header>
+
+    <!-- Carousel Title -->
+    <h1 class="display-4 text-center my-4 carousel-heading">The Issue</h1>
+
+    <!-- ImgCarousel -->
+    <section class="container my-5">
+        <div id="habitCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Pollution.jpg" class="d-block w-100" alt="Pollution impacts">
+                    <!-- https://phys.org/news/2019-06-air-quality-years.html#google_vignette -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The impact of pollution on our Society.</h5>
+                        <p>(US in 2017 vs US in 2018)</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/ocean.jpg" class="d-block w-100" alt="Ocean Pollution">
+                    <!--https://dam.mediacorp.sg/image/upload/s--PQ1yCxY5--/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/mediacorp/cna/image/2021-08/istock-1208182476.jpg?itok=pO4T1D5Q  -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Impact on marine Ecosystems</h5>
+                        <p>Pollution in Water bodies kill marine animals.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/deforestation.jpg" class="d-block w-100" alt="Deforestation">
+                    <!-- https://tesup.com/media/mf_webp/jpg/media/magefan_blog/prevent-wildfires-stor-climate-chenge-global-warming-tesup-clean-energy-01.webp -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Impact on forest Ecosystems</h5>
+                        <p>Pollution and deforestation destroys vegetation, leading to global warming.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#habitCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#habitCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="stats">
+      <h2 id="statshead">Statistics</h2>
+      <h3>The increase in sustainability issues leading to global warming</h3>
+      <ul>
+        <li>
+          <img src="images/waste-stats.jpg" alt="Statistics about human wastage generated globally per annum">
+          <!-- https://www.statista.com/graphic/1/916625/global-generation-of-municipal-solid-waste-forecast.jpg -->
+          <p>The average person produces over 300kg of waste every year. In 2023, Singapore generated an average of 0.88 kilograms of domestic waste per person daily. It is projected that by 2050, we will produce about 2 times of the waste we produced in 2020, which amounts to about 3.6 billion tons. We need to take action! Every small step contributes to making a bigger difference. Lets protect Mother Earth. Zero-waste living is not about perfection, but about making better choices every day.</p>
+        </li>
+      </ul>
+
+      <h3>The impact on marine life</h3>
+      <ul>
+        <li>
+          <p>Over 8 million tons of plastic end up in the oceans annually. Plastic debris harms marine life, as animals can ingest or become entangled in it, leading to injury or death. Microplastics, which are tiny plastic particles, are now found in fish and even in the food we eat. Reducing plastic use and improving waste management are crucial steps to protect our oceans and marine ecosystems. Plastic pollution not only affects marine animals but also disrupts entire food chains and habitats. Floating plastics can transport invasive species to new environments, causing ecological imbalances. Additionally, toxic chemicals from plastics can accumulate in marine organisms, eventually making their way into human diets.</p>
+          <img src="images/plastic-waste.png" alt="Statistics about plastic waste">
+          <!-- https://assets.weforum.org/editor/ajnss4-PgwQrEZ6l7Lo7KqXWo_oY-HaFwT6WGuOgP5k.png -->
+        </li>
+      </ul>
+
+      <h3>The impact on Mother Nature</h3>
+      <ul>
+        <li>
+          <img src="images/food-waste.jpg" alt="Food waste">
+          <!-- https://farmingfirst.org/wp-content/uploads/2024/04/del-barrett-oo-UplUp3ck-unsplash.jpg -->
+          <p>The wasteful culture of humans has led to many negative effects all around us, from global warming, to the annihilation of ecosystems. Remember that the actions we take will return back to us one day. Us humans are already indirectly consuming microplastics, landfills are overflowing, and our world is nearing the crisis of global warming.</p>
+        </li>
+      </ul>
+
+      <h3>How to solve this</h3>
+      <ul>
+        <li>
+          <p>Only about 9% of plastic waste is recycled worldwide. In Singapore, the domestic recycling rate has remained low in recent years, with only about 12% of household waste being recycled in 2023. Common challenges include contamination of recyclables and lack of awareness about proper recycling practices. By sorting waste correctly and reducing contamination, everyone can help improve recycling rates and contribute to a more sustainable future in Singapore.</p>
+          <img src="images/recycling-rate.png" alt="Statistics about recycling rate in Singapore">
+          <!-- https://www.statista.com -->
+        </li>
+      </ul>
+    </section>
+</body>
+
+</html>
